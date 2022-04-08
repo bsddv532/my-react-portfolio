@@ -1,6 +1,7 @@
 import React from 'react'
 import '../Style.css'
 import dk from '../../Images/deepak.png'
+// import wave from '../../Images/wave.svg'
 
 const Home = () => {
     return (
@@ -16,6 +17,7 @@ const Home = () => {
             <div className='home-img'>
                 <img src={dk} alt='DEEPAK' className='home-profile-img'/>
             </div>
+            {/*<img src={wave} alt="Wave" className='Wave-img' />*/}
         </div>
     )
 }
