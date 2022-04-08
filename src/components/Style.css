@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Smooch+Sans:wght@200&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.Component-Headings{
+    font-size: 45px;
+    font-weight: bold;
+    color: #105652;
+    border-bottom: 7px solid #FCA738;
+    width:max-content;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+/* CSS FOR HOME COMPONENT */
+#home{
+    background-color: #145552;
+    display: flex;
+    justify-content: space-around;
+    background-image: url("D:\PREPBYTES\project\React_My_Portfolio\my-react-portfolio\src\Images\wave.svg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-top: 5px;
+}
+
+.home-Para{
+    text-align: left;
+    padding-top: 200px;
+    padding-left: 50px;
+}
+
+.home-p1{
+    color: orange;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.home-p2{
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.home-p3{
+    color: white;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.hire-me-btn{
+    background-color: lightseagreen;
+    color: white;
+    font-size: 25px;
+    width: 180px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 15px 100px #20b2aa;
+}
+
+.get-resume-btn{
+    background-color: orange;
+    color: white;
+    font-size: 25px;
+    width: 180px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+    box-shadow: 2px 15px 100px orange;
+}
+
+.home-profile-img{
+    width: 360px;
+    height: 420px;
+}
+
+
+
+/* CSS FOR ABOUT COMPONENT */
+#about{
+    background-color: white;
+    width: 90%;
+    height: 100vh;
+    margin: auto auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px #b8b3b3;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.about-img{
+    width: 50%
+}
+
+.home-profile-img{
+    width: 70%;
+    height: 100%;
+}
+
+.about-Para{
+    width:50%;
+    padding: 30px;
+    text-align: left;
+}
+
+.about-Para div{
+    width: 95%;
+    margin-left: 20px;
+}
+
+.about-Para p{
+    color: #105652;
+    font-size: 22px;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about-techLogo-div{
+    border-radius: 20px;
+    width: 90%;
+    box-shadow: 0px 0px 30px #00000029;
+    border: 2px solid #00000029;
+    padding:15px;
+    box-sizing: border-box;
+    margin-top: 100px;
+}
+
+.about-techLogo-div p{
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 0px;
+}
+
+.about-techLogo-div div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.about-techLogo-div img{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+
+
+/* CSS FOR PORTFOLIO COMPONENT */
+#portfolio{
+    width: 95%;
+    margin: auto auto;
+    margin-top: 70px;
+    padding-top: 50px;
+}
+
+#portfolio h1{
+    margin: auto auto;
+}
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.project-img{
+    width:400px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px 20px #a19d9d;
+}
+
+
+
+
+
+
+/* CSS FOR CONTACT COMPONENT */
+
+
+/* CSS FOR FOOTER COMPONENT */
+#footer{
+    background-color:#FBF3E4;
+    width: 100%;
+    margin-top: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    color: #333333;
+    font-family: Segoe UI;
+    font-size: 18px;
+}
+

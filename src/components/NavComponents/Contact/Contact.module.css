@@ -1,0 +1,120 @@
+.contact {
+    width: 90%;
+    margin: auto auto;
+    margin-top: 20px;
+    padding-top: 50px;
+}
+
+
+.contact h1 {
+    margin: auto auto;
+    font-size: 45px;
+    font-weight: bold;
+    color: #105652;
+    border-bottom: 7px solid #FCA738;
+    width: max-content;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    box-shadow: 5px 5px 20px #a19d9d;
+}
+
+/* CSS FOR CONTACT ME COMPONENT */
+.ContactMe {
+    background-color: #FFFFFF;
+    text-align: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 4% 8% 4% 8%
+}
+
+.p1 {
+    color: #105652;
+    font-size: 28px;
+    font-weight: 600;
+    padding-top: 60px;
+}
+
+.p2 {
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.details {
+    margin-top: 100px;
+}
+
+.p3 {
+    font-size: 20px;
+    margin-top: 15px;
+    color: #858585;
+}
+
+
+.icons {
+    font-size: 25px;
+    margin-right: 10px;
+    color: black;
+    cursor: pointer;
+}
+
+
+/* CSS FOR CONTACT FORM COMPONENT */
+.main {
+    background-color: #FBF3E4;
+    width: 50%;
+    text-align: left;
+}
+
+.ContactForm {
+    margin: 10% 15% 8% 15%;
+
+}
+
+.ContactForm p {
+    color: #105652;
+    font-size: 28px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+
+form div {
+    margin-top: 5%;
+}
+
+form span{
+    color: red;
+
+}
+
+input,
+textarea {
+    border: 1px solid #E0E0E0;
+    border-radius: 6px;
+    width: 100%;
+    height: 30px;
+    padding: 0 5px;
+    font-size: 15px;
+}
+
+textarea{
+    height: 50px;
+}
+
+.submitBtn{
+    width: 200px;
+    background-color: #FCA738;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px 30px 15px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.submitBtn:active{
+    background-color: #fe9501;
+}

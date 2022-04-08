@@ -1,0 +1,132 @@
+
+
+/* CSS FOR RESUME COMPONENT */
+.resume{
+    width: 90%;
+    margin: auto auto;
+    margin-top: 20px;
+    padding-top: 50px;
+}
+
+
+.resume h1{
+    margin: auto auto;
+    font-size: 45px;
+    font-weight: bold;
+    color: #105652;
+    border-bottom: 7px solid #FCA738;
+    width:max-content;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.ResumeBOX{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* CSS FOR EDUCATION COMPONENT */
+
+.Education{
+    width: 55vw;
+}
+
+.EducationBox1{
+    margin-top: 30px;
+    text-align: left;
+    padding: 20px;
+}
+
+.EducationBox2{
+    margin-top: 60px;
+    text-align: left;
+    padding: 20px;
+}
+
+.p1{
+    color: #105652;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+hr{
+    background-color: #C2C2C2;
+    height: 0px;
+}
+
+ul{
+    position: relative;
+}
+
+ul li{
+    color: #105652;
+    list-style-type: none;
+    margin-top: 24px;
+    padding-left: 30px;
+}
+
+
+li::before{
+    position: absolute;
+    content: '';
+    width: 15px;
+    height: 15px;
+    background-color: #09BCAB;
+    border-radius: 50%;
+    left: 0%;
+    top: 10px;  
+}
+
+.degree{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.passingYear{
+    color:#FFFFFF;
+    background-color: #FCA738;
+    font-size: 16px;
+    box-shadow: 0px 3px 7px #F57F173D;
+    padding: 8px 20px 8px 20px;
+    border-radius: 20px;
+    float: right;
+}
+
+.institute{
+    font-size: 18px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+
+
+/* CSS FOR ResumeImage COMPONENT */
+
+.resumeImg{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.resumeImg img{
+    width: 350px;
+    height: 350px;
+}
+
+.icons{
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.socialIcons{
+    font-size: 40px;
+    opacity: 0.8;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.socialIcons:hover{
+    color: #FCA738;
+}
